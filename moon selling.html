@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaydeep moon seller</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+        }
+        body {
+            font-family: 'Montserrat Subrayada', sans-serif;
+            background-color: #2c2c2c;
+        }
+        header {
+            height: 70px;
+            display: flex;
+            justify-content: space-between; /* Changed to space-between for better layout */
+            align-items: center;
+            border-bottom: 1px solid black;
+            padding: 0 20px; /* Added padding for better spacing */
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a {
+            padding: 0px 10px;
+            margin: 0 5px;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50px;
+        }
+        main {
+            display: flex;
+            height: 90vh;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+        }
+        .merc {
+            max-width: 500px;
+            height: auto;
+        }
+        .contentleft {
+            flex: 1;
+        }
+        .contentmid {
+            flex: 2;
+        }
+        .contentright {
+            flex: 1;
+        }
+        main h2 {
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+        }
+        main p {
+            font-size: 14px;
+            font-weight: 200;
+            color: white;
+            line-height: 31.5px;
+            margin: 30px 0px;
+        }
+        .btn {
+            padding: 15px 30px;
+            color: black;
+            background: white;
+            outline: none;
+            border: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 50px;
+        }
+        .btn:hover {
+            background-color: #2c2c2c;
+            color: white;
+            border: 2px solid white;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo img {
+            height: 40px; 
+            width: auto;
+        }
+        .signup {
+            background-color: white;
+            color: black;
+        }
+        .signup:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://t4.ftcdn.net/jpg/04/18/54/93/240_F_418549327_9m67G2a2GsK3esVB4Pdm7vQ3eaFdTQOS.jpg" alt="Store Logo">
+            <h1 style="margin-left: 10px; font-size: 24px;">Hello!!</h1>
+          
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+            <h2>Moon</h2>
+        </div>
+        <div class="contentmid">
+            <p>The Moon—Earth is only natural satellite—is a mesmerizing celestial body that has captivated humanity for centuries. With its stunning craters, shimmering surface, and ever-changing phases, the Moon represents mystery, adventure, and the limitless possibilities of space. Whether you're dreaming of owning a piece of the Moon or simply fascinated by its beauty, our platform brings you closer to this cosmic wonder. Explore the magic of lunar landscapes and claim your own slice of the Moon today</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="contentright">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" class="merc">
+        </div>
+    </main>
+</body>
+</html>
